@@ -1,0 +1,39 @@
+
+
+.site-card-border-less-wrapper {
+height: 100%;
+}
+.mainreport
+{
+    min-height: 100% !important;
+    background-color: #f0f2f5;
+}
+
+.ant-card{
+    box-shadow: 2px 2px 10px 0px #203d5d17;
+    border-radius: 3px !important;
+    transition: 0.3s ease-in all;
+}
+.ant-card:hover{
+    box-shadow: 2px 2px 10px 5px #203d5d17;
+	transition:0.3s ease-in all;
+}
+.ant-col {
+    padding-bottom: 20px !important;
+}
+.anticon-mail, .anticon-phone, .anticon-home {
+    margin-right: 10px !important;
+}
+.ant-card-body {
+    height: 178px !important;
+    border: 1px solid #eaeaea;
+    background: #ffffff;
+}
+[data-theme="dark"] .site-card-border-less-wrapper {
+background: #303030;
+}
+.ant-card-head
+{
+background: #303030;
+color: #fff;
+}

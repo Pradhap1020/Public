@@ -1,0 +1,134 @@
+.maincontainer
+{
+    display:flex;
+    min-height: 90vh;
+}
+.trigger
+{
+    font-size: large;
+}
+
+
+#components-layout-demo-custom-trigger .trigger:hover {
+    color: #1890ff;
+}
+  
+#components-layout-demo-custom-trigger .logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+}
+
+  
+.site-layout-background {
+    background: #fff !important;
+}
+
+.Notification
+{
+    position: absolute;
+    right: 0;
+    padding-right: 50px;
+}
+.SiderToggle
+{
+    text-align: center;
+    color: #fff;
+    padding: 20px !important;
+    position: relative;
+}
+.badgec
+{
+    font-size: large;
+    padding: 0px 15px 0px 15px;
+}
+iframe 
+{
+    border: unset !important;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  body::-webkit-scrollbar-track {
+    background: #fff;        /* color of the tracking area */
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: gray;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #fff;  /* creates padding around scroll thumb */
+  }
+  .noti-title
+  {
+      display: flex;
+  }
+  .noti-title-test
+  {
+      padding: 0px 10px 0px 10px;
+  }
+
+  .textmenu
+  {
+    color: #fff;
+    text-align: center;
+    padding: 8px 0px;
+    background: black;
+  }
+  .textmenu1
+  {
+    color: #fff;
+    text-align: center;
+    padding: 8px 0px;
+    background: black;
+    display: flex;
+  }
+  .menu-icon-div{
+    padding: 0px 10px 0px 15px;
+  }
+  .BadgeCustom
+  {
+      border:unset !important;
+  }
+
+  .ant-badge-count {
+    z-index: auto;
+    min-width: 20px;
+    height: 20px;
+    padding: 0 6px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    white-space: nowrap;
+    text-align: center;
+    background: #fd0a0a;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 0 1px #fff;
+    box-shadow: unset;
+}
+.BadgeCustom 
+{
+    position: absolute;
+    right: 14px;
+    top: 10px;
+}
+.read-butn:hover{
+    cursor: pointer;
+}
+
+.ant-menu-item-selected{ 
+    background : #11c26d !important
+}
+#components-layout-demo-custom-trigger .trigger:hover {
+    color: #11c26d;
+}
+.anticon-notification {
+    color: #11c26d !important;
+}
+.ant-btn-primary{
+    background: #11c26d !important;
+    border-color: #11c26d !important;
+}
+input.ant-input:hover {
+    /* border: 1px solid #11c26d !important; */
+}
